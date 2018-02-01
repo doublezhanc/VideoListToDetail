@@ -6,5 +6,3 @@
 > 原理：
 > 1.使用同一个ExoPlayer，对齐设置不同的绘制View达到视频可以不停止播放的效果。
 > 2.使用Google安卓5.0以上支持的共享元素切换方式，实现切换不同Acitivty可以无缝显示效果。
-
-<iframe height=498 width=510 src="http://player.youku.com/embed/XNjcyMDU4Njg0">
