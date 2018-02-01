@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/poster_img"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/poster"/>
+    
+    <!--<com.google.android.exoplayer2.ui.SimpleExoPlayerView-->
+        <!--android:id="@+id/video_item_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"></com.google.android.exoplayer2.ui.SimpleExoPlayerView>-->
+
+    <!--<SurfaceView-->
+        <!--android:id="@+id/video_item_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"></SurfaceView>-->
+    <TextureView
+        android:id="@+id/video_item_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"></TextureView>
+
+    <!--<VideoView-->
+        <!--android:id="@+id/video_item_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+        <!--android:transitionName="video"></VideoView>-->
+
+    <TextView
+        android:id="@+id/video_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_below="@+id/video_item_view"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="50dp"/>
+
+</RelativeLayout>

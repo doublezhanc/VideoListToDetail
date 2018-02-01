@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<com.google.android.exoplayer2.ui.SimpleExoPlayerView-->
+    <!--android:id="@+id/detail_player"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="300dp"-->
+    <!--android:transitionName="video"></com.google.android.exoplayer2.ui.SimpleExoPlayerView>-->
+
+    <TextureView
+        android:id="@+id/detail_player"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:transitionName="video"></TextureView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detail_player"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:text="视频详情"/>
+
+    <!--<VideoView-->
+    <!--android:id="@+id/detail_player"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="300dp"-->
+    <!--android:transitionName="video"></VideoView>-->
+
+</RelativeLayout>
